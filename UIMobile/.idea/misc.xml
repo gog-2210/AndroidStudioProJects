@@ -3,11 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/UIMobile/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2555" />
+        <entry key="..\:/AndroidStudioProjects/UIMobile/app/src/main/res/drawable/bg_blackopacity.xml" value="0.2545" />
+        <entry key="..\:/AndroidStudioProjects/UIMobile/app/src/main/res/drawable/circle.xml" value="0.2545" />
+        <entry key="..\:/AndroidStudioProjects/UIMobile/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2555" />
         <entry key="..\:/AndroidStudioProjects/UIMobile/app/src/main/res/drawable/ic_wave.xml" value="0.226" />
         <entry key="..\:/AndroidStudioProjects/UIMobile/app/src/main/res/drawable/round_bg.xml" value="0.2555" />
+        <entry key="..\:/AndroidStudioProjects/UIMobile/app/src/main/res/drawable/round_bg1.xml" value="0.2545" />
+        <entry key="..\:/AndroidStudioProjects/UIMobile/app/src/main/res/drawable/round_bg2.xml" value="0.2545" />
         <entry key="..\:/AndroidStudioProjects/UIMobile/app/src/main/res/drawable/round_border.xml" value="0.264" />
-        <entry key="..\:/AndroidStudioProjects/UIMobile/app/src/main/res/layout/activity2.xml" value="0.18671875" />
-        <entry key="..\:/AndroidStudioProjects/UIMobile/app/src/main/res/layout/activity_main.xml" value="0.5121951219512195" />
+        <entry key="..\:/AndroidStudioProjects/UIMobile/app/src/main/res/layout/activity2.xml" value="0.6" />
+        <entry key="..\:/AndroidStudioProjects/UIMobile/app/src/main/res/layout/activity_main.xml" value="0.264" />
       </map>
     </option>
   </component>
