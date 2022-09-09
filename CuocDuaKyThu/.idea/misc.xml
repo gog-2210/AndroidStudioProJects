@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/CuocDuaKyThu/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2535" />
+        <entry key="..\:/AndroidStudioProjects/CuocDuaKyThu/app/src/main/res/drawable/bordercb.xml" value="0.2535" />
         <entry key="..\:/AndroidStudioProjects/CuocDuaKyThu/app/src/main/res/drawable/circle_r_play.xml" value="0.183" />
         <entry key="..\:/AndroidStudioProjects/CuocDuaKyThu/app/src/main/res/drawable/circle_rplay.xml" value="0.2475" />
-        <entry key="..\:/AndroidStudioProjects/CuocDuaKyThu/app/src/main/res/layout/activity_main.xml" value="0.536" />
+        <entry key="..\:/AndroidStudioProjects/CuocDuaKyThu/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2535" />
+        <entry key="..\:/AndroidStudioProjects/CuocDuaKyThu/app/src/main/res/layout/activity_main.xml" value="0.6" />
       </map>
     </option>
   </component>

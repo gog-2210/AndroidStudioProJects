@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
+    android:background="@drawable/greenlawn"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android">
@@ -8,7 +9,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="10dp"
         android:orientation="vertical">
 
         <LinearLayout
@@ -27,7 +27,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:thumb="@drawable/crocodile" />
+                android:progressDrawable="@android:color/transparent"
+                android:thumb="@drawable/pig" />
         </LinearLayout>
 
         <LinearLayout
@@ -46,12 +47,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:thumb="@drawable/elephant" />
+                android:progressDrawable="@android:color/transparent"
+                android:thumb="@drawable/raccoon" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
             android:gravity="center">
 
             <CheckBox
@@ -64,7 +67,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:thumb="@drawable/pig" />
+                android:progressDrawable="@android:color/transparent"
+                android:thumb="@drawable/fox" />
         </LinearLayout>
     </LinearLayout>
 
@@ -99,7 +103,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:layout_margin="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
         android:text="100"
         android:textColor="@color/teal_200"
         android:textSize="50sp"
