@@ -26,11 +26,11 @@
                 android:textSize="40dp" />
 
             <com.google.android.material.appbar.MaterialToolbar
-                android:layout_marginTop="-10dp"
                 android:id="@+id/materialToolbar"
                 android:layout_width="380dp"
                 android:layout_height="20dp"
-                android:background="@drawable/gaussian_blur"/>
+                android:layout_marginTop="-10dp"
+                android:background="@drawable/gaussian_blur" />
 
         </LinearLayout>
         <LinearLayout

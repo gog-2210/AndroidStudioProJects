@@ -2,6 +2,7 @@ package com.example.listview;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -10,7 +11,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
-
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
@@ -77,6 +77,9 @@ public class MainActivity extends AppCompatActivity {
         lvMonHoc.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
             public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
+                Intent intent = new Intent(MainActivity.this, activity2.class);
+                intent.putExtra("ConvertContent","Màn hình chi tiết " + arrayCourse.get(i));
+                startActivity(intent);
                 Toast.makeText(MainActivity.this, "Màn hình chi tiết " + arrayCourse.get(i), Toast.LENGTH_SHORT).show();
                 return false;
             }
