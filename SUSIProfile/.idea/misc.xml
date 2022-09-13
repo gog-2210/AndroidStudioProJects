@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/SUSIProfile/app/src/main/res/drawable/aa.xml" value="0.2335" />
+        <entry key="..\:/AndroidStudioProjects/SUSIProfile/app/src/main/res/drawable/bgr_behind_avartar.xml" value="0.231" />
+        <entry key="..\:/AndroidStudioProjects/SUSIProfile/app/src/main/res/drawable/bgr_profile.xml" value="0.2335" />
+        <entry key="..\:/AndroidStudioProjects/SUSIProfile/app/src/main/res/drawable/bgr_signin_ui.xml" value="0.231" />
+        <entry key="..\:/AndroidStudioProjects/SUSIProfile/app/src/main/res/drawable/border_avatar.xml" value="0.1715" />
+        <entry key="..\:/AndroidStudioProjects/SUSIProfile/app/src/main/res/drawable/border_bottom.xml" value="0.231" />
+        <entry key="..\:/AndroidStudioProjects/SUSIProfile/app/src/main/res/drawable/border_btn_signin.xml" value="0.231" />
+        <entry key="..\:/AndroidStudioProjects/SUSIProfile/app/src/main/res/drawable/ic_baseline_keyboard_arrow_right_24.xml" value="0.231" />
+        <entry key="..\:/AndroidStudioProjects/SUSIProfile/app/src/main/res/drawable/info_describe.xml" value="0.2335" />
+        <entry key="..\:/AndroidStudioProjects/SUSIProfile/app/src/main/res/drawable/layout_bgr_profile.xml" value="0.2335" />
+        <entry key="..\:/AndroidStudioProjects/SUSIProfile/app/src/main/res/drawable/round_border_b.xml" value="0.231" />
+        <entry key="..\:/AndroidStudioProjects/SUSIProfile/app/src/main/res/drawable/round_border_signin.xml" value="0.231" />
+        <entry key="..\:/AndroidStudioProjects/SUSIProfile/app/src/main/res/layout/activity_main.xml" value="0.6" />
+        <entry key="..\:/AndroidStudioProjects/SUSIProfile/app/src/main/res/layout/activity_sign_in_ui.xml" value="0.536" />
+        <entry key="..\:/AndroidStudioProjects/SUSIProfile/app/src/main/res/layout/activity_sign_up_ui.xml" value="0.536" />
+        <entry key="..\:/AndroidStudioProjects/SUSIProfile/app/src/main/res/layout/profile_ui.xml" value="0.536" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
