@@ -1,9 +1,12 @@
 package com.example.productlist;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.style.ClickableSpan;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -36,8 +39,22 @@ public class MainActivity extends AppCompatActivity {
         lvFood.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
             public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
-                arrayfood.remove(i);
-                adapter.notifyDataSetChanged();
+                AlertDialog.Builder b = new AlertDialog.Builder(MainActivity.this);
+                b.setTitle("!!!");
+                b.setMessage("Do you want remove it?");
+                b.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int j) {
+                        arrayfood.remove(i);
+                        adapter.notifyDataSetChanged();
+                    }
+                });
+                b.setNegativeButton("No", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int j) {
+                    }
+                });
+                b.create().show();
                 return true;
             }
         });
@@ -53,8 +70,5 @@ public class MainActivity extends AppCompatActivity {
         arrayfood.add(new Food("Xiên thịt nướng","2050531200134",R.drawable.thitnuong));
         arrayfood.add(new Food("Khoai tây chiên","2050531200134",R.drawable.khoaitaychien));
         arrayfood.add(new Food("Tacos","2050531200134",R.drawable.tacos));
-    }
-    public void openDialog(){
-
     }
 }
