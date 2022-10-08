@@ -14,23 +14,14 @@
         android:src="@drawable/vegetable" />
 
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="80dp"
-        android:layout_marginLeft="30dp"
-        android:id="@+id/tvlg1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Welcome"
-        android:textSize="40sp"
-        android:textColor="#72AE73"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tvlg1"
-        android:layout_marginLeft="30dp"
         android:text="MIFAD"
-        android:textColor="#72AE73"
-        android:textSize="40sp" />
+        android:textColor="#1F610A"
+        android:textSize="40sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/ttSignin"
