@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bgr_detail_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFF4DD"
+    tools:context=".DetailFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/ivBack_detail"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/bgr_btn_black"
+                android:src="@drawable/ic_baseline_arrow_back_ios_24" />
+
+            <ImageView
+                android:id="@+id/iv_favorite_detail"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_baseline_favorite_border_24" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="400dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="-20dp"
+                    android:background="@drawable/bgr_iv_black" />
+
+                <ImageView
+                    android:id="@+id/iv_detail"
+                    android:layout_width="400dp"
+                    android:layout_height="350dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="-45dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/img_10" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="620dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="-40dp"
+                    app:cardCornerRadius="50dp">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentBottom="true"
+                        android:paddingHorizontal="30dp"
+                        android:paddingTop="40dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_marginBottom="20dp"
+                                android:id="@+id/tv_name_detail"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Name Item"
+                                android:textColor="#000"
+                                android:textSize="28sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tv_content_detail"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="18sp"
+                                android:text="Fruits and vegetables contain important vitamins, minerals and plant chemicals. They also contain fibre. There are many varieties of fruit and vegetables available and many ways to prepare, cook and serve them" />
+                            <TextView
+                                android:layout_marginTop="30dp"
+                                android:id="@+id/tv_tips_detail"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Tips to keep it fresh"
+                                android:textColor="#000"
+                                android:textSize="20sp"
+                                android:textStyle="bold"/>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:gravity="center_horizontal"
+                                android:layout_marginTop="10dp">
+                                <androidx.cardview.widget.CardView
+                                    app:cardCornerRadius="15dp"
+                                    android:layout_width="130dp"
+                                    android:layout_height="200dp"
+                                    app:cardBackgroundColor="#82B94D">
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:padding="10dp">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_alignParentStart="true"
+                                            android:layout_alignParentTop="true"
+                                            android:layout_alignParentEnd="true"
+                                            android:layout_marginStart="0dp"
+                                            android:layout_marginTop="0dp"
+                                            android:layout_marginEnd="0dp"
+                                            android:text="Temparature"
+                                            android:textColor="@color/white"
+                                            android:id="@+id/tv_temparature"/>
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_alignParentStart="true"
+                                            android:layout_alignParentEnd="true"
+                                            android:layout_marginStart="0dp"
+                                            android:layout_marginEnd="0dp"
+                                            android:text="18-25C°"
+                                            android:layout_below="@+id/tv_temparature"
+                                            android:textColor="@color/white"
+                                            android:textStyle="bold"
+                                            android:textSize="18sp"/>
+
+                                    </RelativeLayout>
+
+
+                                </androidx.cardview.widget.CardView>
+                                <androidx.cardview.widget.CardView
+                                    app:cardCornerRadius="15dp"
+                                    android:layout_width="130dp"
+                                    android:layout_height="200dp"
+                                    app:cardBackgroundColor="#82B94D"
+                                    android:layout_marginLeft="10dp">
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:padding="10dp">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_alignParentStart="true"
+                                            android:layout_alignParentTop="true"
+                                            android:layout_alignParentEnd="true"
+                                            android:layout_marginStart="0dp"
+                                            android:layout_marginTop="0dp"
+                                            android:layout_marginEnd="0dp"
+                                            android:text="Temparature"
+                                            android:textColor="@color/white"
+                                            android:id="@+id/tv_temparature2"/>
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_alignParentStart="true"
+                                            android:layout_alignParentEnd="true"
+                                            android:layout_marginStart="0dp"
+                                            android:layout_marginEnd="0dp"
+                                            android:text="18-25C°"
+                                            android:layout_below="@+id/tv_temparature2"
+                                            android:textColor="@color/white"
+                                            android:textStyle="bold"
+                                            android:textSize="18sp"/>
+
+                                    </RelativeLayout>
+
+
+                                </androidx.cardview.widget.CardView>
+                                <androidx.cardview.widget.CardView
+                                    app:cardCornerRadius="15dp"
+                                    android:layout_width="130dp"
+                                    android:layout_height="200dp"
+                                    app:cardBackgroundColor="#82B94D"
+                                    android:layout_marginLeft="10dp">
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:padding="10dp">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_alignParentStart="true"
+                                            android:layout_alignParentTop="true"
+                                            android:layout_alignParentEnd="true"
+                                            android:layout_marginStart="0dp"
+                                            android:layout_marginTop="0dp"
+                                            android:layout_marginEnd="0dp"
+                                            android:text="Temparature"
+                                            android:textColor="@color/white"
+                                            android:id="@+id/tv_temparature3"/>
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_alignParentStart="true"
+                                            android:layout_alignParentEnd="true"
+                                            android:layout_marginStart="0dp"
+                                            android:layout_marginEnd="0dp"
+                                            android:text="18-25C°"
+                                            android:layout_below="@+id/tv_temparature3"
+                                            android:textColor="@color/white"
+                                            android:textStyle="bold"
+                                            android:textSize="18sp"/>
+
+                                    </RelativeLayout>
+
+
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </ScrollView>
+
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</FrameLayout>

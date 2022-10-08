@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginUI">
+
+    <ImageView
+        android:id="@+id/imgbgr"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:scaleType="fitEnd"
+        android:src="@drawable/vegetable" />
+
+    <TextView
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/tvlg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="40sp"
+        android:textColor="#72AE73"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvlg1"
+        android:layout_marginLeft="30dp"
+        android:text="MIFAD"
+        android:textColor="#72AE73"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/ttSignin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgbgr"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Sign In"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/ttSignin"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#50000000"
+        android:hint="Email"
+        android:text="a"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="5dp"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/edtEmail"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#50000000"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="5dp"
+        android:text="a"
+        android:textSize="24sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLogin"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="170dp"
+        android:backgroundTint="#1f610a"
+        app:cornerRadius="10dp"
+        app:icon="@drawable/ic_baseline_arrow_forward"
+        app:iconSize="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="100dp"
+        android:text="Foget Password?"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="65dp"
+        android:text="Sign Up"
+        android:textColor="#50A401"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>
