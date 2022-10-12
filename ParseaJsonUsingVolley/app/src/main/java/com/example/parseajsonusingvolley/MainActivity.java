@@ -41,23 +41,24 @@ public class MainActivity extends AppCompatActivity {
     }
     private void jsonParse() {
 
-        String url = "https://api.jsonserve.com/_8nM5t";
+        String url = "https://api.jsonserve.com/CmOsLf";
 
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url, null,
                 new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
                         try {
-                            JSONArray jsonArray = response.getJSONArray("Fruits");
+                            JSONArray jsonArray = response.getJSONArray("student");
 
                             for (int i = 0; i < jsonArray.length(); i++) {
-                                JSONObject employee = jsonArray.getJSONObject(i);
+                                JSONObject student = jsonArray.getJSONObject(i);
 
-                                String name = employee.getString("name");
-                                int amount = employee.getInt("amount");
-                                String price = employee.getString("price");
+                                String id = student.getString("id");
+                                String name = student.getString("name");
+                                String email= student.getString("email");
+                                String grade= student.getString("grade");
 
-                                mTextViewResult.append(name + ", " + String.valueOf(amount) + ", " + price + "\n\n");
+                                mTextViewResult.append(id + ", " +name+ ", " +email+ ", " +grade+ "\n\n");
                             }
                         } catch (JSONException e) {
                             e.printStackTrace();
